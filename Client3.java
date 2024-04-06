@@ -71,7 +71,7 @@ public class Client3 { // Declaration of the Client class
                         System.out.println("Quitting the client..."); // Printing quitting message
                         break; // Exiting loop
                     } else if (message.equalsIgnoreCase("CLIENT LIST")) { // Checking if user wants client list
-                        output.println("CLIENT LIST REQUEST"); // Sending client list request to server
+                        output.println("CLIENT LIST"); // Sending client list request to server
                     } else {
                         output.println(message); // Sending user message to server
                     }
